@@ -1,0 +1,140 @@
+@font-face {
+    font-family: "daidrrjs";
+    src: url("../fonts/Tokyo-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "tokyo";
+    src: url(../fonts/nuku-nuku.regular.ttf) format("truetype");
+}
+
+/* NAVBAR */
+
+.navbar {
+    font-family: "tokyo", sans-serif !important;
+    padding-top: 20px;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #1B2727;
+    font-size: 13px;
+    font-family: "daidrrjs", sans-serif;
+    padding-left: 7px;
+    margin-right: 40px;
+    margin-bottom: 1px;
+}
+
+.navbar-brand {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.navbar .navbar-nav .nav-link.active {
+    color: #6B8E4E;
+}
+
+.navbar-brand span {
+    color: #ffffff;
+}
+
+.navbar-brand span:hover,
+.navbar-brand span:active {
+    color: #6B8E4E;
+}
+
+.navbar .navbar-nav .nav-link.active:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #B2C5B2;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* HERO SECTION */
+
+.home {
+    position: relative; /* Membuat posisi relatif untuk konten overlay */
+    background-image: url(../asset/images/wallpaper3.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Overlay dengan latar belakang warna */
+.home::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0.6,0.8,0.5,0.10); /* Ubah warna overlay sesuai keinginan Anda */
+    z-index: 1; /* Pastikan overlay berada di atas background image */
+}
+
+.text1{
+    padding-top: 250px;
+    font-size: 90px;
+    font-family: "daidrrjs";
+    color: #ffffff;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.text2{
+    padding-left: 200px;
+    padding-top: 330px;
+    font-size: 70px;
+    font-family: "tokyo";
+    color: #ffffff;
+    justify-content: center;
+}
+
+.text3{
+    font-size: 30px;
+    padding-left: 10px;
+    font-family: "daidrrjs";
+    color: #D5DDDF;
+}
+
+.text4{
+    padding-top: 280px;
+    color: #D5DDDF;
+    border-bottom: 2px solid;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+.text5{
+    color: #ffffff;
+    text-align: justify;
+    margin-left: 10px;
+}
+.gallery{
+    background-color: #050702;
+}
+
+@media (max-width: 768px) {
+    .text1{ 
+        font-size: 50px;
+    }
+    .text2{
+        padding-top: 300px;
+        padding-left: 0px;
+        font-size: 40px;
+        color: #ffffff;
+        justify-content: center;
+    }
+    .text3{
+        font-size: 17px;
+    }
+    .text4{
+        font-size: 17px;
+    }
+    .text5{
+        font-size: 11px;
+    }
+}
