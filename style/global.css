@@ -11,7 +11,7 @@
 /* NAVBAR */
 
 .navbar {
-    font-family: "tokyo", sans-serif !important;
+    font-family: "tokyo", sans-serif;
     padding-top: 20px;
 }
 
@@ -24,40 +24,15 @@
     margin-bottom: 1px;
 }
 
-.navbar-brand {
-    color: #D5DDDF;
-    font-size: 25px;
-}
-
 .navbar .navbar-nav .nav-link.active {
     color: #6B8E4E;
-}
-
-.navbar-brand span {
-    color: #D5DDDF;
-}
-
-.navbar-brand span:hover,
-.navbar-brand span:active {
-    color: #6B8E4E;
-}
-
-.navbar .navbar-nav .nav-link.active:after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 2px;
-    background-color: #B2C5B2;
-    position: absolute;
-    bottom: 0;
-    left: 0;
 }
 
 /* HERO SECTION */
 
 .home {
     position: relative; /* Membuat posisi relatif untuk konten overlay */
-    background-image: url(../asset/images/wallpaper3.jpg);
+    background-image: url(../asset/images/wallpaper4.jpg);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
