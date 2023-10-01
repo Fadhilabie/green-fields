@@ -105,6 +105,20 @@ html::-webkit-scrollbar-thumb {
     background-color: #050702;
 }
 
+/* who Section Start */
+.who {
+  background-color: #050702;
+}
+
+.who-populer .card-who {
+  width: 250px;
+}
+
+.who-populer .img-box {
+  border: 2px solid #1b2727;
+}
+
+
 @media (max-width: 767px) {
     .text1 {
         font-size: 50px;
@@ -123,5 +137,12 @@ html::-webkit-scrollbar-thumb {
     }
     .text5 {
         font-size: 11px;
+    }
+    .populer i {
+      font-size: 1.5rem;
+    }
+  
+    .who-populer .card-who {
+      width: 115px;
     }
 }
