@@ -25,7 +25,7 @@
 }
 
 .navbar-brand {
-    color: #ffffff;
+    color: #D5DDDF;
     font-size: 25px;
 }
 
@@ -34,7 +34,7 @@
 }
 
 .navbar-brand span {
-    color: #ffffff;
+    color: #D5DDDF;
 }
 
 .navbar-brand span:hover,
@@ -80,7 +80,7 @@
     padding-top: 250px;
     font-size: 90px;
     font-family: "daidrrjs";
-    color: #ffffff;
+    color: #D5DDDF;
     justify-content: center;
     padding-left: 10px;
 }
@@ -90,7 +90,7 @@
     padding-top: 330px;
     font-size: 70px;
     font-family: "tokyo";
-    color: #ffffff;
+    color: #D5DDDF;
     justify-content: center;
 }
 
@@ -109,7 +109,7 @@
     display: inline-block;
 }
 .text5{
-    color: #ffffff;
+    color: #D5DDDF;
     text-align: justify;
     margin-left: 10px;
 }
@@ -117,15 +117,14 @@
     background-color: #050702;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .text1{ 
         font-size: 50px;
     }
     .text2{
-        padding-top: 300px;
         padding-left: 0px;
         font-size: 40px;
-        color: #ffffff;
+        color: #D5DDDF;
         justify-content: center;
     }
     .text3{
