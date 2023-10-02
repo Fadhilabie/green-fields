@@ -105,17 +105,16 @@ html::-webkit-scrollbar-thumb {
     background-color: #050702;
 }
 
-/* who Section Start */
-.who {
-  background-color: #050702;
+.why {
+background-color: #050702;
 }
 
-.who-populer .card-who {
-  width: 250px;
+.whys .card-why {
+width: 250px;
 }
 
-.who-populer .img-box {
-  border: 2px solid #1b2727;
+.whys .img-box {
+border: 2px solid #1b2727;
 }
 
 
@@ -139,10 +138,9 @@ html::-webkit-scrollbar-thumb {
         font-size: 11px;
     }
     .populer i {
-      font-size: 1.5rem;
+        font-size: 1.5rem;
     }
-  
-    .who-populer .card-who {
-      width: 115px;
+    .whys .card-why {
+        width: 115px;
     }
 }
