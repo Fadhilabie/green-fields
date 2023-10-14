@@ -47,6 +47,9 @@ html::-webkit-scrollbar-thumb {
     color: #6b8e4e;
 }
 
+.navbar-brand{
+    font-family: "tokyo", sans-serif;
+}
 /* HERO SECTION */
 
 .home {
@@ -101,22 +104,60 @@ html::-webkit-scrollbar-thumb {
     font-family: "tokyo";
 }
 
-.gallery {
+.about {
     background-color: #050702;
 }
 
-.why {
-background-color: #050702;
+.galery {
+    background-color: #050702;
 }
 
-.whys .card-why {
-width: 250px;
+.galerys .card-galery {
+    width: 250px;
 }
 
-.whys .img-box {
-border: 2px solid #1b2727;
+.galerys .img-box {
+    border: 2px solid #1b2727;
+}
+.next{
+    background-color: #050702;
+}
+/* Footer */
+.footer {
+    text-align: center;
+    color: #050702;
 }
 
+.footer .box-container .box .share a {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    border-radius: 10%;
+    font-size: 1.4rem;
+    color: #6b8e4e;
+    margin-right: 0.8rem;
+    text-decoration: none;
+}
+
+.footer .box-container .box .share a:hover {
+    background: #d5dddf;
+    color: #3C5148;
+}
+
+.footer .credit {
+    text-align: center;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: #6b8e4e;
+    border-top: 2px solid;
+}
+
+.footer .credit span {
+    color: #181722;
+}
 
 @media (max-width: 767px) {
     .text1 {
@@ -140,7 +181,10 @@ border: 2px solid #1b2727;
     .populer i {
         font-size: 1.5rem;
     }
-    .whys .card-why {
+    .galerys .card-galery {
         width: 115px;
+    }
+    .footer .credit {
+        font-size: 12px;
     }
 }
