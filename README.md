@@ -1,2 +1,2 @@
 # green-fields
- proyek ngasal
+ proyek ngasal biar lebih lancar bootstrapnya
