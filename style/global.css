@@ -53,7 +53,7 @@ html::-webkit-scrollbar-thumb {
 /* HERO SECTION */
 
 .home {
-    position: relative; /* Membuat posisi relatif untuk konten overlay */
+    position: relative;
     background-image: url(../asset/images/wallpaper4.jpg);
     height: 100vh;
     background-repeat: no-repeat;
